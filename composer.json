@@ -1,0 +1,30 @@
+{
+  "name" : "ipallet/zarinpal-bundle",
+  "description" : "A bundle for handling payment using zarinpal",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Majid Mohsenifar",
+    "email" : "majidmohsenifar@gmail.com"
+  }],
+  "keywords" : [
+    "zarinpal"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Ipallet\\ZarinpalBundle" : ""
+    }
+  },
+  "target-dir" : "Ipallet/ZarinpalBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}
