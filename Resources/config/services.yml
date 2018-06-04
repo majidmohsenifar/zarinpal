@@ -1,0 +1,4 @@
+services:
+#    ipallet_zarinpal.example:
+#        class: Ipallet\ZarinpalBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

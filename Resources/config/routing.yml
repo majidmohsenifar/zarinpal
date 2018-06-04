@@ -1,0 +1,3 @@
+ipallet_zarinpal_homepage:
+    path:     /
+    defaults: { _controller: IpalletZarinpalBundle:Default:index }
