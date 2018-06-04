@@ -13,6 +13,7 @@
     "MIT"
   ],
   "require" : {
+    "ext-soap" : "*"
   },
   "autoload" : {
     "psr-0" : {
