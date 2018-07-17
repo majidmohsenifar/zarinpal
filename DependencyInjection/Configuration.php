@@ -25,6 +25,8 @@ class Configuration implements ConfigurationInterface
         // more information on that topic.
         $rootNode
             ->children()
+                ->scalarNode('payment_url')->end()
+                ->scalarNode('authorize_url')->defaultNull()->end()
                 ->integerNode('merchant_id')->end()
                 ->scalarNode('call_back_url')->end()
                 ->end();

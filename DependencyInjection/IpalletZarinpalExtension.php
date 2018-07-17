@@ -24,5 +24,25 @@ class IpalletZarinpalExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        $container->setParameter(
+            'ipallet_zarinpal.merchant_id',
+            $config['merchant_id']
+        );
+
+        $container->setParameter(
+            'ipallet_zarinpal.call_back_url',
+            $config['call_back_url']
+        );
+
+        $container->setParameter(
+            'ipallet_zarinpal.payment_url',
+            $config['payment_url']
+        );
+
+        $container->setParameter(
+            'ipallet_zarinpal.authorize_url',
+            $config['authorize_url']
+        );
     }
 }
