@@ -16,8 +16,8 @@
     "ext-soap" : "*"
   },
   "autoload" : {
-    "psr-0" : {
-      "Ipallet\\ZarinpalBundle" : ""
+    "psr-4" : {
+      "Ipallet\\ZarinpalBundle\\" : ""
     }
   }
 }
