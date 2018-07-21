@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
             ->children()
                 ->scalarNode('payment_url')->end()
                 ->scalarNode('authorize_url')->defaultNull()->end()
-                ->integerNode('merchant_id')->end()
+                ->scalarNode('merchant_id')->end()
                 ->scalarNode('call_back_url')->end()
                 ->end();
         return $treeBuilder;
